@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0e5d8; /* Warna latar belakang krem lembut */
+}
+
+header {
+    background: #00e3c5; /* Warna kuning pastel */
+    color: white;
+    padding: 20px;
+    display: flex; /* Menggunakan flexbox untuk tata letak */
+    align-items: center; /* Menyelaraskan item secara vertikal */
+}
+
+.logo {
+    max-width: 100px; /* Atur lebar maksimum logo */
+    height: auto; /* Menjaga rasio aspek */
+    margin-right: 20px; /* Memberikan jarak antara logo dan judul */
+}
+
+h1 {
+    flex-grow: 1; /* Membuat judul mengambil ruang yang tersisa */
+    margin: 0; /* Menghapus margin default */
+}
+
+nav {
+    margin-left: auto; /* Memindahkan navigasi ke sebelah kanan */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Menghapus margin default */
+}
+
+nav ul li {
+    display: inline; /* Menampilkan item dalam satu baris */
+    margin: 0 15px; /* Memberikan jarak antar item */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #b57c00; /* Warna oranye gelap untuk judul */
+    border-bottom: 2px solid #b57c00; /* Garis bawah untuk judul */
+    padding-bottom: 5px;
+}
+
+p {
+    color: #000000; /* Warna teks yang lebih gelap untuk kontras */
+}
+
+ul {
+    list-style-type: square; /* Mengubah jenis bullet list */
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: #00e3c5; /* Warna footer gelap */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
